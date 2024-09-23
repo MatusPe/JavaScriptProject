@@ -1,0 +1,12 @@
+#MainContainer{
+    padding: 10px;
+    margin:20px auto;
+    border:1px solid #ccc;
+    text-align: center;
+    background: linear-gradient(90deg, #0b00ff, #dd1313, #13cde1, #938fd8);
+    color:#ffffff;
+    text-shadow: black 1px 1px 1px;
+}
+button{
+    margin-top: 10px;
+}

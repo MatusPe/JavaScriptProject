@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <link rel="stylesheet" href="CSS/style.css">>
+</head>
+<body>
+<div id="box">
+  <form>
+    <label>Lenght of generated code<input type="number" id="LenghtNumber"></label><br>
+    <label>Allow uppercase<input type="checkbox" id="Uppercase"></label><br>
+    <label>Allow lowercase<input type="checkbox" id="Lowercase"></label><br>
+    <label>Allow symbol<input type="checkbox" id="Symbol"></label><br>
+    <label>Allow number<input type="checkbox" id="number"></label><br>
+
+  </form>
+
+  <button onclick="generatePassword()">Generate random password</button>
+  <p id="#Genereted_code"></p>
+</div>
+<script src="Javascript/GeneratePassword.js"></script>
+</body>
+</html>

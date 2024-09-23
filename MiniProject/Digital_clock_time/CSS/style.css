@@ -1,0 +1,28 @@
+
+#MainContainer{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid #000;
+    height: 100vh;
+    background: radial-gradient(circle at center, #cccccc, black);
+}
+#time{
+
+
+
+    color: white;
+    font-size: 70px;
+    font-family: monospace;
+    font-weight: bold;
+    backdrop-filter: blur(10px);
+    background: radial-gradient(circle, #000000, #433c3c);
+
+    border: 5px solid;
+    border-image: linear-gradient(145deg, #635e60, #babcbb) 1;
+
+
+
+
+
+}

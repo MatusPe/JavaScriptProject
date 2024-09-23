@@ -1,0 +1,13 @@
+
+
+.Timer {
+    width: 70px;
+    font-size: 40px;
+    border-radius: 15px;
+    background-color: transparent;
+    backdrop-filter: blur(50px);
+    border-color: orange;
+    color: white;
+
+
+}

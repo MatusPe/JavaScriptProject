@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+<div id="box">
+    <h1 id="Title">Rock Paper Scissors</h1>
+    <button class="move" onclick="GameMain(1)">👊</button>
+    <button class="move" onclick="GameMain(2)">✋</button>
+    <button class="move" onclick="GameMain(3)">✌️</button>
+
+
+
+    <div id="ra">
+    <p id="CurrectRound" class="Status">
+        <span id="CurrectRound1" class="GameStatus"> </span>
+    </p>
+    <p id="Player" class="Status">Player:</p>
+    <p id="Pc" class="Status">Pc:</p>
+    <h2 id="Score" class="Status">Yours score:
+
+    </h2>
+    <h2 id="PcScore" class="Status">Computer score:
+
+    </h2>
+
+  <p id="result"><span class="GameStatus"></span></p>
+</div>
+    <button id="Reset" onclick="Reset()">Reset</button>
+</div>
+<script src="Javascript/GameMain.js"></script>
+</body>
+</html>

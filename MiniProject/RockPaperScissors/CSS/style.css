@@ -1,0 +1,71 @@
+.move{
+    font-size: 150px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50px;
+    margin-left: 50px;
+    background: radial-gradient(ellipse at center, red, black);
+    margin-bottom: 20px;
+    border: 5px solid #000;
+}
+#MainContainer{
+    margin: auto;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 1000px;
+    text-align: center;
+    border: 5px solid black;
+    padding: 20px;
+    background: radial-gradient(ellipse at center, red, black);;
+}
+.move:hover{
+    border-color: rgb(2, 2, 250);
+
+
+    border-width: 10px;
+
+}
+#Title{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: "Arial Black";
+    background: radial-gradient(ellipse at center, red, black);
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-stroke: 2px #635b5b;
+}
+.Status{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Arial Black";
+    background: linear-gradient(to right, red, black);
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-stroke: 1px #635b5b;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+
+}
+
+#result{
+    font-size: 70px;
+    -webkit-text-stroke: 2px #635b5b;
+    font-family: "Arial Black";
+}
+#Reset{
+    font-size: 50px;
+    color: white;
+    background: radial-gradient(ellipse at center, red, black);
+    width: 300px;
+    border-radius: 30px;
+    border: 1px solid black;
+}
+#Reset:hover{
+    scale: 1.2;
+}
+body{
+    background: radial-gradient(ellipse at center, #534e4e, black);
+}

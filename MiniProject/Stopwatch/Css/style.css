@@ -1,0 +1,89 @@
+
+
+body{
+
+    background: linear-gradient(180deg, #000 0%, #c67a00 100%);
+    margin: 0;                     /* Remove default margin */
+    font-family: Arial, sans-serif;
+    color: white;
+
+}
+#Title{
+    text-align: center;
+    background: linear-gradient(180deg, #000 0%, #c67a00 100%);
+    color: white;
+    text-shadow: 1px 2px black;
+    border-radius: 10px;
+    border: 1px solid orange;
+    box-shadow: 1px 2px darkred;
+    font-family: Arial, sans-serif;
+    font-size: 4vh;
+    height: 5vh;
+}
+
+#MainContainer{
+    margin-top: 30vh;
+    background: linear-gradient(145deg, #531f1f, #a6742e);
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    justify-content: space-around;
+    border: 1px solid orange;
+    box-shadow: 1px 2px darkred;
+    border-radius: 10px;
+}
+
+#timeset{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 1px solid orange;
+    box-shadow: 1px 2px darkred;
+    border-radius: 10px;
+    margin: 10px;
+
+}
+#time{
+    font-size: 50px;
+}
+#timeset button{
+    margin: 10px;
+    width: 100px;
+    height: 30px;
+    background: radial-gradient(circle, #531f1f, #a6742e);
+    border: 1px solid orange;
+    color: white;
+}
+#timeset button:hover{
+
+    background: radial-gradient(circle, #531f1f, #c8bba9);
+    transform: scale(1.1);
+}
+
+
+#WatchChoose{
+    position: fixed;
+    display: flex;
+    bottom: 50px;
+    width: 100%;
+    justify-content: space-around;
+
+}
+#WatchChoose button{
+    margin: 10px;
+    width: 200px;
+    height: 30px;
+    background: radial-gradient(circle, #531f1f, #a6742e);
+    border: 1px solid orange;
+    color: white;
+}
+
+#WatchChoose button:hover{
+    background: radial-gradient(circle, #531f1f, #c8bba9);
+    transform: scale(2);
+}
+

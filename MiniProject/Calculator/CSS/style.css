@@ -1,0 +1,54 @@
+
+#Box{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(#718ac1, #5252bd, #3535c6, #0202fa);
+    width: 350px;
+    padding: 20px;
+    border-radius: 20px;
+    border: 3px solid blue;
+
+}
+#display{
+    width: 300px;
+    height: 50px;
+    font-size: 30px;
+    margin-top: 30px;
+    overflow: hidden;
+    background: radial-gradient(circle, #5252bd, #3535c6, #0202fa);
+    border-color: transparent;
+    border-radius: 15px;
+    color: white;
+}
+
+#CalculatePanel {
+    margin-top: 50px;
+    width: 100px;
+    display: grid;
+    grid-template-columns: repeat(4, 0.5fr);
+    justify-content: center; /* Centers the buttons horizontally */
+    align-content: center;   /* Centers the buttons vertically */
+
+
+}
+#CalculatePanel button {
+    font-size: 40px;
+    color: white;
+    margin: 5px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    border: none;
+    gap: 10px;
+    background: linear-gradient(#0c0c0c, #222121, #3e3d3d, #5e5e5e);
+}
+#CalculatePanel button:hover {
+    scale: 1.2;
+    background: linear-gradient(#000000, #ffffff);
+    border: 1px solid orange;
+}
