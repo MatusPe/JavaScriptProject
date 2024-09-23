@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+
+    <link rel="stylesheet" href="Static/CSS/DailyForecast_SecondPage.css">
+    <link rel="stylesheet" href="Static/CSS/BaseSite.css">
+    <link rel="icon" type="image/png" href="Static/Image/sunset.png">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCpAYIEvgDxp4rfvznGS6i2PFReFVGXaAo&libraries=places&v=3"
+    ></script>
+</head>
+<nav id="NavBox">
+
+
+    <a id="Info"><button class="navBar"> Information About site</button></a>
+    <a id="Radar"><button class="navBar">Radar</button></a>
+    <a id="pollution"><button class="navBar">Air Pollution</button></a>
+    <a id="24HoursFerecast"><button  class="navBar">24 Hours Forecast</button></a>
+    <a id="currentpage"><button   class="navBar">Daily Forecast</button></a>
+</nav>
+<body>
+<img id="NavPicture" src="Static/Image/sunset.png">
+<h4 id="Title" >WeatherLand</h4>
+<img class="MainPicture" src="Static/Image/ok.jpg">
+
+<form id="dataForm" action="DailyForecast_SecondPage.html" method="Post">
+    <div id="Input" >
+        <label for="searchTextField"><input  id="searchTextField" type="text" placeholder="TypeCity"></label>
+        <input id="submitButton" type="submit" value=">">
+    </div>
+</form>
+
+<script src="Javascript/SearchBar.js"></script>
+<div id="MainContainer">
+
+
+    <div id="CityBox">
+        <p id="city">Kosice</p>
+
+    </div>
+
+    <div id="WeatherToday">
+        <div id="dataBox"><h4 id="Date"></h4><h1 id="Temperature"></h1>
+            <p>Day <span></span> * Night <span></span> </p></div>
+
+        <img>
+
+    </div>
+    <div id="DateWeather">
+        <div id="DailyWeather">
+            <div class="DayTemperature">
+                <div  class="data">
+                    <p class="Day"></p>
+
+                    <h1 class="MaxMin"></h1>
+                </div>
+                <div class="Wind"><p>Wind</p> <h1><span></span><span>km/h</span> </h1></div>
+
+                <img class="dailypicture">
+            </div>
+            <div class="DayTemperature">
+                <div  class="data">
+                    <p class="Day"></p>
+
+                    <h1 class="MaxMin"></h1>
+                </div>
+                <div class="Wind"><p>Wind</p> <h1><span></span><span>km/h</span> </h1></div>
+
+                <img class="dailypicture">
+            </div>
+            <div class="DayTemperature">
+                <div class="data">
+                    <p class="Day"></p>
+
+                    <h1 class="MaxMin"></h1>
+                </div>
+                <div class="Wind"><p>Wind</p> <h1><span></span><span>km/h</span> </h1></div>
+
+                <img class="dailypicture">
+            </div>
+            <div class="DayTemperature">
+                <div  class="data">
+                    <p class="Day"></p>
+
+                    <h1 class="MaxMin"></h1>
+                </div>
+                <div class="Wind"><p>Wind</p> <h1><span></span><span>km/h</span> </h1></div>
+
+                <img class="dailypicture">
+            </div>
+            <div class="DayTemperature">
+                <div  class="data">
+                    <p class="Day"></p>
+
+                    <h1 class="MaxMin"></h1>
+                </div>
+                <div class="Wind"><p>Wind</p> <h1><span></span><span>km/h</span> </h1></div>
+
+                <img class="dailypicture">
+            </div>
+            <div class="DayTemperature">
+                <div  class="data">
+                    <p class="Day"></p>
+
+                    <h1 class="MaxMin"></h1>
+                </div>
+                <div class="Wind"><p>Wind</p> <h1><span></span><span>km/h</span> </h1></div>
+
+                <img class="dailypicture">
+            </div>
+            <div class="DayTemperature">
+                <div  class="data">
+                    <p class="Day"></p>
+
+                    <h1 class="MaxMin"></h1>
+                </div>
+                <div class="Wind"><p>Wind</p> <h1><span></span><span>km/h</span> </h1></div>
+
+                <img class="dailypicture">
+            </div>
+        </div>
+        <div id="HoursWeather">
+
+
+
+
+
+        </div>
+
+    </div>
+
+
+
+
+</div>
+<script src="Javascript/DailyForecast_SecondPage.js"></script>
+
+
+
+</body>
+</html>

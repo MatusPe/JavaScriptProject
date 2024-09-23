@@ -1,0 +1,112 @@
+
+#InputForm{
+    display:flex;
+    width:300px;
+    align-content: center;
+    margin: auto;
+
+    transform: translate(-50%);
+
+}
+
+#searchTextField{
+    position:absolute;
+    left:35%;
+    bottom:20%;
+    width:300px;
+    height:30px;
+    background: linear-gradient(-90deg, #ff0000, #bd0b0b);
+    border-radius: 15px;
+    border: none;
+    box-shadow: 2px 5px black;
+    border-top: black solid 1px;
+    border-left: black solid 1px;
+    border-right: black solid 1px;
+    font-family: "Arial Black";
+    font-weight: bold;
+    font-size: large;
+    color: White;
+
+
+
+
+}
+#submitButton{
+    position:absolute;
+    left:126%;
+    bottom:20%;
+    border-bottom-right-radius:  40px;
+    border-top-right-radius:  40px;
+    width: 31px;
+    height: 31px;
+    background:  linear-gradient(-90deg, rgba(255, 0, 0, 0.9), rgba(189, 11, 11, 0.9)), rgba(255, 255, 255, 0.2);;
+    backdrop-filter: blur(2px);
+    border: none;
+}
+
+@keyframes blink {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+}
+#WebIcon {
+    color: black;
+    animation: blink 10s infinite;
+    border-radius: 500px;
+
+
+
+
+}
+body{
+
+    margin: 0;
+    height: 100vh;
+    overflow: hidden;
+    background: repeating-linear-gradient(
+            45deg,
+            #e3dfdf,
+            #f6f4f1 30px,
+            #000000 30px,
+            #c3851d 30px
+    );
+}
+
+#background{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100vw;
+    height: 100vh;
+
+
+    animation: colorchange 5s infinite;
+    filter: hue-rotate(0deg);
+}
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+}
+:root {
+    --my-start-width: 0;
+    --my-end-width: 30deg;
+}
+
+@keyframes colorchange {
+    0% {
+        filter: hue-rotate(var(--my-start-width));
+    }
+    50% {
+        filter: hue-rotate(var(--my-end-width));
+    }
+    100% {
+        filter: hue-rotate(var(--my-start-width));
+    }
+}
+
+

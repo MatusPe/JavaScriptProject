@@ -1,0 +1,53 @@
+
+#map {
+    margin: auto;
+    margin-top: 10vh;
+    height: 60%;
+    width: 90%;
+    border: 5px solid #000000;
+    border-radius: 100px;
+    box-shadow: 0 0 10px #ffffff;
+}
+
+#MapVariety{
+    text-align: center;
+    margin-top: 10vh;
+    margin-left: 5vh;
+
+    width: 90%;
+    height: 40px;
+    justify-content: space-between;
+    display: flex;
+    border-bottom: white solid 2px;
+    border-radius: 100px;
+
+}
+.Button{
+    backdrop-filter: blur(1px);
+
+    background: transparent;
+    border: none;
+    border-radius: 100px;
+    font-size: 20px;
+    color: white;
+
+    border-bottom: white solid 3px;
+}
+
+.Button:hover{
+    scale: 1.2;
+    cursor: pointer;
+
+
+}
+
+#StatusContainer{
+    margin: 50px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+#map{
+
+}

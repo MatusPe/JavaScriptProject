@@ -1,0 +1,7 @@
+#Box{
+    overflow-y: scroll;
+    height: 90%;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+
+}

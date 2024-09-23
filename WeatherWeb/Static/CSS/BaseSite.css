@@ -1,0 +1,144 @@
+#NavBox{
+
+    background: #000000;
+    border-top-left-radius: 50px;
+
+    margin-top: 65px;
+    float: right;
+    width: 1200px;
+    border-bottom: white solid 3px;
+}
+
+.navBar{
+    width: 150px;
+    height: 40px;
+    margin-left: 50px;
+    background: transparent;
+    backdrop-filter: blur(8px) saturate(150%);
+
+    border: none;
+
+    float: right;
+
+    font-size: 17px;
+    background: radial-gradient(ellipse at center, #ff9100, #fff30a);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: bold;
+    border-left: black solid 3px;
+    border-right: black solid 3px;
+}
+.MainPicture{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100vw;
+    height: 100vw;
+
+
+    background-repeat: repeat-x;
+    background-size: auto;
+}
+#NavPicture{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100px;
+    height: 100px;
+    margin-left: 50px;
+    margin-top: 5px;
+    background-repeat: repeat;
+
+}
+
+#Title {
+    position: absolute;
+    top: 35px;
+
+    margin-left: 80px;
+    font-size: 30px;
+    font-family: 'Quicksand', sans-serif;
+    border-bottom: black solid 3px;
+    background: radial-gradient(ellipse at center, red, #ff9f04);
+    -webkit-background-clip: text;
+    color: transparent;
+
+
+}
+
+
+#MainContainer{
+    position: absolute;
+    top: 150px;
+    left: 290px;
+    width: 150vh;
+    height: 150vh;
+    border: black solid 3px;
+    background: rgba(255, 255, 255, 0.5);;
+    backdrop-filter: blur(8px) saturate(150%);
+
+}
+
+#Input{
+
+
+
+    width: 300px;
+
+    position: absolute;
+    left: 80%;
+    display: flex;
+    flex-direction: row;
+
+}
+#searchTextField{
+    width: 250px;
+    height: 30px;
+    margin-right: 0;
+    border: black solid 1px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+#submitButton{
+    position: relative;
+    margin-left: 0;
+    margin-top: 0px;
+    height: 33.5px;
+    width: 34px;
+
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: black solid 1px;
+    background: radial-gradient(ellipse at center, #424242);
+}
+
+#CityBox{
+
+    width: 100%;
+    text-align: center;
+    font-size: 60px;
+    border-radius: 10px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+
+    color: white;
+
+    text-shadow: 1px 1px 1px #000000;
+    opacity: 0;
+    animation: fadeIn 2s forwards;
+
+
+
+
+}
+#city{
+
+
+    border-bottom: white solid 2px;
+    border-radius: 30px;
+    font-family: 'Quicksand', sans-serif;
+}
+@keyframes fadeIn {
+    to { opacity: 1; }
+}

@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <link rel="stylesheet" href="Static/CSS/24Forecast_ThirdPage.css">
+    <link rel="icon" type="image/png" href="Static/Image/sunset.png">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCpAYIEvgDxp4rfvznGS6i2PFReFVGXaAo&libraries=places&v=3"
+    ></script>
+    <link rel="stylesheet" href="Static/CSS/BaseSite.css">
+
+</head>
+<nav id="NavBox">
+
+    <a id="Info"><button class="navBar"> Information About site</button></a>
+    <a id="Radar"><button  class="navBar">Radar</button></a>
+    <a id="pollution"><button class="navBar">Air Pollution</button></a>
+    <a id="currentpage"><button class="navBar">24 Hours Forecast</button></a>
+    <a id="Daily"><button   class="navBar">Daily Forecast</button></a>
+</nav>
+<body>
+
+<img id="NavPicture" src="Static/Image/sunset.png">
+<h4 id="Title" >WeatherLand</h4>
+    <img class="MainPicture" src="Static/Image/ok.jpg">
+
+
+
+    <form id="dataForm" action="DailyForecast_SecondPage.html" method="post">
+        <div id="Input" >
+            <label for="searchTextField"><input  id="searchTextField" type="text" placeholder="TypeCity" name="city"></label>
+            <input id="submitButton" type="submit" value=">">
+        </div>
+    </form>
+
+<script src="Javascript/SearchBar.js"></script>
+
+<div id="MainContainer">
+
+    <div id="CityBox">
+        <p id="city">Kosice</p>
+
+    </div>
+<div id="CurrentWeatherContainer">
+    <div id="CurrentTime">
+        <p id="Text">Current Time</p>
+        <p id="Date0"><span></span></p>
+
+    </div>
+
+    <div id="CurrentPollution">
+    <img id="PollutionPicture">
+        <div id="NumberPollution">
+            <h1 id="Date1"><span>°C</span></h1>
+            <h1 id="Realfeel">RealFeel</h1>
+            <h1 id="Date2"></span><span>°C</span></h1>
+        </div>
+
+
+    </div>
+    <div id="AddedDetail">
+        <p id="Date3">Moustly cloundy</p>
+        <button onclick="getMaps(this)">More Detail ></button>
+    </div>
+    <div id="DetailWeather">
+        <span class="DateWeather">
+        <p>Rain</p>
+            <p id="Date4"><span>mm</span></p>
+        </span>
+        <span class="DateWeather">
+        <p>Wind</p>
+            <p id="Date5"><span>km/h</span></p>
+        </span>
+        <span class="DateWeather">
+        <p>Wind Gusts</p>
+
+            <p id="Date6"><span>km/h</span></p>
+
+        </span>
+        <span class="DateWeather">
+        <p>Cloud cover</p>
+            <p id="Date7"><span>%</span></p>
+        </span>
+    </div>
+
+</div>
+
+    <div id="ExtendDetail">
+        <div id="DateDetail">
+        <span class="DateWeather">
+        <p>Pressure</p>
+            <p id="Date8"><span>mb</span></p>
+        </span>
+        <span class="DateWeather">
+        <p>Visibility</p>
+            <p id="Date9"><span>%</span></p>
+        </span>
+        <span class="DateWeather">
+        <p>Humidity</p>
+            <p id="Date10"><span>%</span></p>
+        </span>
+        <span class="DateWeather">
+        <p>Maximal Temp</p>
+            <p id="Date11"><span>°C</span></p>
+        </span>
+
+        <span class="DateWeather">
+        <p>Minimal Temp</p>
+            <p id="Date12"><span>°C</span></p>
+        </span>
+
+        <span class="DateWeather">
+        <p>Sea level</p>
+            <p id="Date13"><span>n.m.n</span></p>
+        </span>
+
+        <span class="DateWeather">
+        <p>Atmosferic Pressure</p>
+            <p id="Date14"><span>mb</span></p>
+        </span>
+        </div>
+        <div id="map"></div>
+
+    </div>
+    <h1 id="TitleResult">3-Hours forecast</h1>
+    <div id="ThreeHoursForecast">
+    <div id="FirstLine" class="box">
+        <a onclick="getMainforecast(1)"><div class="boxHours">
+
+
+        </div></a>
+        <a onclick="getMainforecast(2)"><div class="boxHours">
+
+
+        </div></a>
+        <a onclick="getMainforecast(3)"><div class="boxHours">
+
+
+        </div></a>
+        <a onclick="getMainforecast(4)"><div class="boxHours">
+
+
+        </div></a>
+
+    </div>
+
+    <div id="SecondLine" class="box">
+        <a onclick="getMainforecast(5)"><div class="boxHours">
+
+
+        </div></a>
+        <a onclick="getMainforecast(6)"><div class="boxHours">
+
+
+        </div></a>
+        <a onclick="getMainforecast(7)"><div class="boxHours">
+
+
+        </div></a>
+        <a onclick="getMainforecast(8)"><div class="boxHours">
+
+
+        </div></a>
+
+
+    </div>
+    </div>
+
+
+
+
+
+</div>
+<script src="Javascript/Maps.js"></script>
+<script src="Javascript/24Forecast_ThirdPageJS.js"></script>
+
+
+</body>
+</html>

@@ -1,0 +1,143 @@
+
+#WeatherToday{
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    border: black solid 1px;
+    width: 90%;
+    margin: auto;
+    height: 30vh;
+    backdrop-filter: blur(5px);
+    background: linear-gradient(90deg, transparent, rgb(40, 101, 181), rgb(155, 192, 241));
+}
+
+#Temperature{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15vh;
+    margin: 20px;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+#dataBox{
+    color: white;
+    font-size: 3vh;
+    margin-left: 20px;
+    font-weight: bold;
+    text-shadow: 0px 0px 5px black;
+    
+
+
+}
+#dataBox p{
+    border-bottom-right-radius: 10px;
+    border-bottom: white solid 2px;
+    width: 100%;
+    margin-top: 0;
+
+    
+}
+
+#DateWeather{
+    display: flex;
+    flex-direction: row;
+width: 90%;
+    
+    height: 50%;
+    margin: auto;
+    margin-top: 30px;
+
+
+
+}
+#DailyWeather{
+    width: 70%;
+    height: 100%;
+    border: black solid 1px;
+    margin-right: 50px;
+    background: white;
+    overflow-y: scroll;
+
+    border-radius: 30px;
+}
+
+#HoursWeather{
+    width: 30%;
+    height: 100%;
+    border: black solid 1px;
+    background: white;
+
+}
+
+.DayTemperature{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 20vh;
+    border-bottom: black solid 1px;
+
+}
+.data{
+    margin: 20px;
+
+}
+.data p{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.data h1{
+    
+    border: black solid 3px;
+    margin-top: 10px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 4vh;
+    background: radial-gradient(circle, transparent, rgb(40, 101, 181));
+    width: 100%;
+    border-bottom-right-radius: 30px;
+}
+
+.Wind p{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 3vh;
+}
+#Date{
+    margin: 0;
+    margin-bottom: 0;
+}
+.HoursTemperature{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: #ff9800 solid 4px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+#HoursWeather{
+    overflow-y: scroll;
+}
+.HourTemperature h2{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 4vh;
+    margin-top: 0;
+    margin-left: 10px;
+    margin-bottom: 0;
+}
+
+.HourTemperature p{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 2vh;
+    margin-top: 0;
+    margin-left: 10px;
+}
+
+.HourTemperature h6{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 2vh;
+    margin-top: 0;
+    margin-left: 10px;
+    margin-bottom: 0;
+}

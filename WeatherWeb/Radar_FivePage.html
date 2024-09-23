@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+
+    <link rel="stylesheet" href="Static/CSS/Radar_FivePage.css">
+    <link rel="stylesheet" href="Static/CSS/BaseSite.css">
+    <link rel="icon" type="image/png" href="Static/Image/sunset.png">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCpAYIEvgDxp4rfvznGS6i2PFReFVGXaAo&libraries=places&v=3"
+    ></script>
+</head>
+<nav id="NavBox">
+
+
+    <a id="Info"><button class="navBar"> Information About site</button></a>
+    <a id="currentpage"><button class="navBar">Radar</button></a>
+    <a id="pollution"><button class="navBar">Air Pollution</button></a>
+    <a id="24HoursFerecast"><button  class="navBar">24 Hours Forecast</button></a>
+    <a id="Daily"><button   class="navBar">Daily Forecast</button></a>
+</nav>
+<body>
+<img id="NavPicture" src="Static/Image/sunset.png">
+<h4 id="Title" >WeatherLand</h4>
+<img class="MainPicture" src="Static/Image/ok.jpg">
+
+<form id="dataForm" action="DailyForecast_SecondPage.html" method="Post">
+    <div id="Input" >
+        <label for="searchTextField"><input  id="searchTextField" type="text" placeholder="TypeCity"></label>
+        <input id="submitButton" type="submit" value=">">
+    </div>
+</form>
+
+<script src="Javascript/SearchBar.js"></script>
+<div id="MainContainer">
+
+
+<div id="CityBox">
+    <p id="city">Kosice</p>
+
+</div>
+
+
+    <div id="map"></div>
+
+    <div id="MapVariety">
+        <button class="Button" onclick="ChangeMaps('clouds_new', this) ">Clouds</button>
+        <button class="Button" onclick="ChangeMaps('precipitation_new', this)">Precipitation</button>
+        <button class="Button" onclick="ChangeMaps('pressure_new', this)">Sea Level Pressure</button>
+        <button class="Button" onclick="ChangeMaps('wind_new', this)">Wind speed</button>
+        <button class="Button" onclick="ChangeMaps('temp_new', this)">Temperature</button>
+
+
+
+    </div>
+
+
+</div>
+<script src="Javascript/Maps.js"></script>
+<script src="Javascript/Radar_FivePage.js"></script>
+
+</body>
+</html>

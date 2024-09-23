@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="Static/CSS/24Forecast_ThirdPage.css">
+    <link rel="stylesheet" href="Static/CSS/BaseSite.css">
+    <link rel="stylesheet" href="Static/CSS/AirPollution_FourPage.css">
+    <link rel="icon" type="image/png" href="Static/Image/sunset.png">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCpAYIEvgDxp4rfvznGS6i2PFReFVGXaAo&libraries=places&v=3"
+    ></script>
+
+</head>
+<nav id="NavBox">
+
+    <a id="Info"><button class="navBar"> Information About site</button></a>
+    <a id="Radar"><button  class="navBar">Radar</button></a>
+    <a id="currentpage"><button class="navBar">Air Pollution</button></a>
+    <a id="24HoursFerecast"><button  class="navBar">24 Hours Forecast</button></a>
+    <a id="Daily"><button   class="navBar">Daily Forecast</button></a>
+</nav>
+<body>
+<img id="NavPicture" src="Static/Image/sunset.png">
+<h4 id="Title" >WeatherLand</h4>
+<img class="MainPicture" src="Static/Image/ok.jpg">
+
+<form id="dataForm" action="DailyForecast_SecondPage.html" method="post">
+    <div id="Input" >
+        <label for="searchTextField"><input  id="searchTextField" type="text" placeholder="TypeCity" name="city"></label>
+        <input id="submitButton" type="submit" value=">">
+    </div>
+</form>
+
+
+
+
+<script src="Javascript/SearchBar.js">
+
+
+</script>
+
+<div id="MainContainer">
+
+    <div id="StatusContainer">
+    <div id="CurrentPollution">
+        <img id="PollutionPicture" >
+        <div id="NumberPollution">
+            <h1 id="pollution">1</h1>
+        </div>
+
+
+    </div>
+        <div id="CityBox">
+            <p id="city">Kosice</p>
+
+        </div>
+
+</div>
+<div id="Databox">
+    <p class="PolutionData"><span>Сoncentration of CO </span><span id="PolutionDate0"></span></p>
+    <p class="PolutionData"><span>Сoncentration of NH<sup>3</sup> </span><span id="PolutionDate1"></span> </p>
+    <p class="PolutionData">Сoncentration of NO <span id="PolutionDate2"></span></p>
+    <p class="PolutionData"><span>Сoncentration of NO<sup>2</sup> </span><span id="PolutionDate3"></span></p>
+    <p class="PolutionData"><span>Сoncentration of O<sup>3</sup> </span><span id="PolutionDate4"></span></p>
+    <p class="PolutionData"><span>Сoncentration of PM<sup>10</sup> </span><span id="PolutionDate5"></span></p>
+    <p class="PolutionData"><span>Сoncentration of PM<sup>2.5</sup> </span><span id="PolutionDate6"></span></p>
+    <p class="PolutionData"><span>Сoncentration of S0<sup>2</sup> </span><span id="PolutionDate7"></span></p>
+
+</div>
+
+
+</div>
+<script src="Javascript/AirPollution_ThirdPage.js"></script>
+
+</body>
+</html>

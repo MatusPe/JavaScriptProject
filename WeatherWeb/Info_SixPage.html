@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <link rel="stylesheet" href="Static/CSS/BaseSite.css">
+    <link rel="stylesheet" href="Static/CSS/Info.css">
+    <link rel="icon" type="image/png" href="Static/Image/sunset.png">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCpAYIEvgDxp4rfvznGS6i2PFReFVGXaAo&libraries=places&v=3.exp"></script>
+
+</head>
+<nav id="NavBox">
+
+
+    <a id="currentpage"><button class="navBar"> Information About site</button></a>
+    <a id="Radar"><button class="navBar">Radar</button></a>
+    <a id="pollution"><button class="navBar">Air Pollution</button></a>
+    <a id="24HoursFerecast"><button  class="navBar">24 Hours Forecast</button></a>
+    <a id="Daily"><button   class="navBar">Daily Forecast</button></a>
+</nav>
+<body>
+<img id="NavPicture" src="Static/Image/sunset.png">
+<h4 id="Title" >WeatherLand</h4>
+<img class="MainPicture" src="Static/Image/ok.jpg">
+
+<form id="dataForm" action="DailyForecast_SecondPage.html" method="Post">
+    <div id="Input" >
+        <label for="searchTextField"><input  id="searchTextField" type="text" placeholder="TypeCity"></label>
+        <input id="submitButton" type="submit" value=">">
+    </div>
+</form>
+
+<script src="Javascript/SearchBar.js"></script>
+<img class="MainPicture" src="Static/Image/ok.jpg">
+<div id="MainContainer">
+
+  <pre id="Box">
+        <h1>Daily Forecast</h1>
+
+        Displays the weather forecast for the upcoming days.
+        Includes expected temperatures, precipitation, wind, and other relevant data.
+        Helps users plan for the day or week ahead.
+
+
+        <h1>Hourly Forecast</h1>
+
+        Provides more granular weather information for each hour of the day.
+        Includes data on temperature,RealFeel temperature.
+
+
+        <h1>24-Hour Detailed Forecast (Every 3 Hours)</h1>
+
+        Breaks the day into 3-hour intervals, offering detailed weather conditions for each.
+        Includes:
+            Temperature
+            Wind speed and direction
+            Precipitation chances
+            Cloud cover
+            Humidity
+            Pressure
+            Visibility
+
+
+        <h1>Air Pollution</h1>
+
+        Displays the current air quality index (AQI).
+        Shows levels of pollutants like CO2, NO2, O3, particulate matter (PM2.5 and PM10).
+
+        <h1>Radar</h1>
+
+        Clouds
+        Displays real-time or near real-time cloud movement.
+        Helps users track cloud cover and potential storms.
+
+        Precipitation
+        Shows rainfall (or snowfall) intensity and distribution.
+        Indicates areas of light to heavy precipitation.
+
+        Sea Level
+        Displays current sea level data.
+        Could show variations in sea level due to tides or storms.
+        Helps monitor coastal conditions and possible flooding.
+
+        Wind Speed
+        Shows current wind speeds across regions.
+
+        Temperature
+        Provides real-time temperature readings.
+        Helps track temperature changes across different locations.
+
+
+
+    </pre>
+
+
+
+</div>
+<script src="Javascript/Info_SixPage.js"></script>
+
+</body>
+</html>
