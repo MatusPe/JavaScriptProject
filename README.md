@@ -1,41 +1,40 @@
 # JavaScriptProject
 
 
-Aplikácia Weather umo?uje:
-1. Dennú predpove?:
-o Zobrazuje aktuálne po?asie.
-o Uvádza teplotné rozmedzie po?as d?a.
-2. Hodinovú predpove?:
-o Zobrazuje aktuálnu teplotu.
-o Uvádza pocitovú teplotu pre kadú hodinu.
-3. Detailnú 24-hodinovu predpove?:
-o Poskytuje predpove? v 3-hodinovıch intervaloch.
-o Zah??a monos? zobrazenia mapy s teplotami.
-4. Vyh?adávanie mesta:
-o Dostupné na kadej stránke aplikácie.
-o Pouíva platformu Google Maps pre doplnkové textové vyh?adávanie.
-5. Funkcia radar:
-o Obsahuje rôzne filtre, ako napríklad zobrazenie obla?nosti.
-6. Air pollution (Zne?istenie ovzdušia):
-o Zobrazuje namerané hodnoty zloiek vzduchu.
-o Ukazuje úrove? zne?istenia ovzdušia.
-
+AplikÃ¡cia PoÄasie umoÅ¾Åˆuje:
+1.	DennÃ¡ predpoveÄ:
+	Zobrazuje aktuÃ¡lne poÄasie.
+	UvÃ¡dza teplotnÃ© rozmedzie poÄas dÅˆa.
+2.	HodinovÃ¡ predpoveÄ:
+	Zobrazuje aktuÃ¡lnu teplotu.
+	UvÃ¡dza pocitovÃº teplotu pre kaÅ¾dÃº hodinu.
+3.	DetailnÃ¡ 24-hodinovÃ¡ predpoveÄ:
+	Poskytuje predpoveÄ v 3-hodinovÃ½ch intervaloch.
+	ZahÅ•Åˆa moÅ¾nosÅ¥ zobrazenia mapy s teplotami.
+4.	VyhÄ¾adÃ¡vanie mesta:
+	DostupnÃ© na kaÅ¾dej strÃ¡nke aplikÃ¡cie.
+	PouÅ¾Ã­va platformu Google Maps pre doplnkovÃ© textovÃ© vyhÄ¾adÃ¡vanie.
+5.	Funkcia radar:
+	Obsahuje rÃ´zne filtre, ako naprÃ­klad zobrazenie oblaÄnosti.
+6.	Air pollution (ZneÄistenie ovzduÅ¡ia):
+	Zobrazuje nameranÃ© hodnoty zloÅ¾iek vzduchu.
+	Ukazuje ÃºroveÅˆ zneÄistenia ovzduÅ¡ia.
 Video:
 
 https://drive.google.com/file/d/1O0HKBqLH4yF1NSQu2-j47tJnZ_KktnGy/view?usp=sharing
 
-MiniProject:
+MiniProjekt:
+1.	KalkulaÄka - AplikÃ¡cia na vÃ½poÄet zÃ¡kladnÃ½ch matematickÃ½ch operÃ¡ciÃ­.
+2.	HÃ¡dzanie kockou - Generuje nÃ¡hodnÃ½ vÃ½sledok hodu kockou.
+3.	Konvertor - NÃ¡stroj na konverziu km na mÃ­le.
+4.	DigitÃ¡lne hodiny - Zobrazuje aktuÃ¡lny digitÃ¡lny Äas.
+5.	Generovanie hesla - Vygeneruje nÃ¡hodnÃ© heslo.
+6.	KameÅˆ, papier, noÅ¾nice - Hra "kameÅˆ, papier, noÅ¾nice".
+7.	Stopky - Stopky, ktorÃ© zaznamenÃ¡vajÃº Äas.
+	OdpoÄÃ­tavaÄ - OdpoÄÃ­tavaÄ nastaviteÄ¾nÃ½ na urÄitÃ½ Äas.
+	SvetovÃ½ Äas - Zobrazenie svetovÃ©ho Äasu pre rÃ´zne ÄasovÃ© zÃ³ny.
+	StopWatch - OdpoÄÃ­tavaÄ od zaÄiatku Äasomiery.
 
 
-1. Calculator - Aplikácia na vıpo?et základnıch matematickıch operácií.
-2. Dice Roller - Generuje náhodnı vısledok hodenia kockou.
-3. Converter - Nástroj na konverziu km na mile.
-4. Digital Clock - Zobrazuje aktuálny digitálny ?as.
-5. Generate Password - Vygeneruje náhodné heslo.
-6. Rock Paper Scissors - Hra "kame?, papier, nonice".
-7. Stopwatch - Stopa?, ktorı zaznamenáva ?as.
-o Timer - Odpocitava? nastavite?nı na ur?itı ?as.
-o World Time - Zobrazenie svetového ?asu pre rôzne ?asové zóny.
-o  StopWatch – Odpocitava? od za?iatku ?asomiery
 
 
